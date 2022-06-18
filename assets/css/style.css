@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: lightslategrey;
+    background-color: ivory;
+}
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    color: darkslategray;
+    letter-spacing: 4px;
+    
+}
+#title-header {
+    float: left;
+    font-size: 280%;
+    margin-left: 25px;
+    color: darkslategray;
+}
+#menu {
+    font-size: 150%;
+    letter-spacing: 4px;
+    color: darkslategrey;
+}
+#title-header, #menu {
+    line-height: 75px;
+}
+#menu, li {
+    list-style: none;
+    float: right;
+    margin-right: 25px;
+    color:darkslategray
+
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    
+}
