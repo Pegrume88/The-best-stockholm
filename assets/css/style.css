@@ -7,8 +7,8 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: lightslategrey;
-    background-color: ivory;
+    color: #3a3a3a;
+    background-color: white;
 }
 h1, h2 {
     font-family: Oswald, sans-serif;
@@ -20,26 +20,34 @@ h1, h2 {
 #title-header {
     float: left;
     font-size: 280%;
-    margin-left: 25px;
-    color: darkslategray;
+    margin-left: 30px;
+    color: #fff;
+    text-shadow: 3px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 #menu {
-    font-size: 150%;
+    font-size: 110%;
     letter-spacing: 4px;
-    color: darkslategrey;
+    color: #3a3a3a;
+    font-weight: 400;
 }
-#title-header, #menu {
+#menu, #title-header {
     line-height: 75px;
 }
 #menu, li {
     list-style: none;
     float: right;
-    margin-right: 25px;
-    color:darkslategray
+    margin-right: 30px;
+    color: #3a3a3a;;
 
 }
 #menu a {
     text-decoration: none;
     color: inherit;
     
+}
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a ;
+}
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
