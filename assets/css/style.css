@@ -10,7 +10,7 @@ body {
     color: #3a3a3a;
     
 }
-h1, h2 {
+h1, h2, h3 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     color: darkslategray;
@@ -101,4 +101,42 @@ h1, h2 {
     left: 130px;
 
     position: absolute;
+}
+
+#food-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    
+    position: relative;
+}
+
+#food-image {
+    height: 600px;
+    width: 100%;
+    background: url(../css/images/a-bar-called-gemma-0.jpeg);
+    
+    animation-name: hero-zoom;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes food-image {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+#food-drink-text {
+    font-size: 130%;
+    text-align: left;
+    margin-left: 5%;
+    color: #3a3a3a;
+}
+#article {
+    font-family: Lato, sans-serif;
+    
 }
