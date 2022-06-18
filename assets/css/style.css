@@ -8,7 +8,7 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
-    background-color: white;
+    
 }
 h1, h2 {
     font-family: Oswald, sans-serif;
@@ -50,4 +50,55 @@ h1, h2 {
 }
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text,
+#cover-text h2 {
+    color: white;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../css/images/hero-image-2.jpeg);
+    animation-name: hero-zoom;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+}
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+
+    padding: 20px;
+    border-radius: 50%;
+    background-color: rgba(107, 207, 241, 0.7);
+
+    bottom: 30px;
+    left: 130px;
+
+    position: absolute;
 }
