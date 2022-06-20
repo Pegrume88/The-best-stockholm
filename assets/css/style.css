@@ -128,8 +128,32 @@ a {
     animation-duration: 7s;
     animation-fill-mode: forwards;
 }
-
+#culture-image {
+    height: 600px;
+    width: 100%;
+    background: url(../css/images/nature.jpeg);
+    
+    animation-name: hero-zoom;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+}
+#culture-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    
+    position: relative;
+}
 @keyframes food-image {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+@keyframes culture-image {
     from {
         transform: scale(1.1);
     }
