@@ -12,13 +12,7 @@ body {
     
 }
 
-#cover-text h1,
-h2, h3 {
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: white;
-}
+
 
 #title-header {
     float: left;
@@ -89,24 +83,29 @@ a {
     }
 }
 
+#cover-text,
 
-#cover-text {
+#cover-text h3 {
+    color: white;
+   
+}
+
+#cover-text  {
     
-    font-size: 130%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    text-align: center;
+    text-align: auto;
     margin: 0 auto;
-    width: 300px;
+    width: 500px;
     height: 300px;
 
     padding: 20px;
-    border-radius: 50%;
-    background-color: rgba(107, 207, 241, 0.7);
+    
+    
 
-    bottom: 30px;
-    left: 130px;
+    bottom: 200px;
+    right: 130px;
 
     position: absolute;
 }
