@@ -179,7 +179,7 @@ a {
 
     
 
-article h3 {
+article, h3 {
     font-size: 180%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
