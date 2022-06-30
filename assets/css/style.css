@@ -19,9 +19,10 @@ html { font-size:100%; }
 
 @media (max-width: 480px) {
     #hero-image {display: none;}
-    #cover-text h3 {
+    #cover-text  {
        display: none;
     }
+    #meny li { display: block;}
 }
 @media (min-width: 640px) { body {font-size:1rem;} 
 h4{display: none;}}
@@ -36,56 +37,7 @@ img {
     height: auto;
 }
     
-.form-background {
-    clear: left;
-    background: url(../css/images/form-background.jpeg);
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-}
 
-.form {
-    margin-top: 20%;
-    margin-left: 35%;
-    height: fit-content;
-    width: 400px;
-    padding: 20px;
-   border: 2px solid #000;
-   text-align: center;
-    font-weight: 300;
-    color: white;
-    background-color: rgba(60, 60, 60, 0.6);
-    
-
-}
-.form h2{
-    padding: 20px;
-}
-label, input{
-    display: inline-block;
-}
-input[type=text]{
-    padding: 10px ;
-    margin:0 0 10px 0;
-    border-radius: 10px;
-    border: 1px solid #000;
-    
-   
-}
-input[type=email] {
-    -moz-box-align: end;
-    padding: 10px ;
-    margin:0 0 10px 0;
-    border-radius: 10px;
-    border: 1px solid #000;
-}
-input[type=date]{
-    
-    padding: 10px ;
-    margin:0 0 10px 0;
-    border-radius: 10px;
-    border: 1px solid #000;
-}
 #title-header {
     float: left;
     font-size: 240%;
@@ -98,6 +50,7 @@ input[type=date]{
     letter-spacing: 4px;
     color:#fff;
     font-weight: 400;
+    display: inline-block;
 }
 #menu, #title-header {
     line-height: 75px;
@@ -171,7 +124,7 @@ a {
    
 }
 
-#cover-text  {
+#cover-text h4 {
     
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -186,8 +139,7 @@ position: relative;
     
     
 
-    bottom: 200px;
-    right: 130px;
+   
 
     position: absolute;
 }
@@ -257,7 +209,7 @@ position: relative;
         display: block;
     }
 
-
+    
 #article-left {
     font-family: Lato, sans-serif;
     padding: 20px;
