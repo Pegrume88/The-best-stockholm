@@ -7,9 +7,10 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
-    font-size: 16px;
+    color: #fff;
+    background-color: #000;
     
+   
 }
 
 
@@ -72,9 +73,9 @@ input[type=date]{
     text-shadow: 3px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 #menu {
-    font-size: 110%;
+    font-size: 120;
     letter-spacing: 4px;
-    color: #3a3a3a;
+    color:#fff;
     font-weight: 400;
 }
 #menu, #title-header {
@@ -85,7 +86,7 @@ input[type=date]{
     list-style: none;
     float: right;
     margin-right: 30px;
-    color: #3a3a3a;;
+    color:#fff;
 
 }
 a {
@@ -134,7 +135,7 @@ a {
     }
 }
 
-#cover-text,
+
 
 #cover-text h3 {
     color: white;
@@ -212,46 +213,57 @@ a {
         transform: scale(1);
     }
 }
+
+
 #food-drink-text h2 {
     font-family: Lato, sans-serif;
     text-transform: uppercase;
     font-size: 180%;
-   text-align: inherit;
-    color: #3a3a3a;
+   text-align: center;
+    color: #fff;
 }
-#article  {
+
+    main{
+        display: block;
+    }
+
+
+#article-left {
     font-family: Lato, sans-serif;
-    margin-left: 35%;
-    text-align: left;
-    width: 500px;
-    
+    padding: 20px;
+    width: 80%;
+    display: block;
+    margin-left: 5%;
+    margin-bottom: 15px;
+    border: 2px solid #3a3a3a;
+    overflow-x: scroll;
+   
 
 }
 
-    
 
 h3 {
     font-size: 180%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    text-align: left;
+    
     
     letter-spacing: 2px;
-    color:#3a3a3a;
+    color:#fff;
 }
 article, p {
     text-transform: none;
     font-family: Lato, sans-serif;
     font-size: 20px;
     
-    text-align: left;
-    width: 400px;
+    width: fit-content;
     
 }
 
-#bottom-line {
-    border-bottom: 2px solid #3a3a3a;
-    width: 400px;
+
+
+footer {
+    margin-top: 10px;
 }
 
 .footer p {
@@ -279,3 +291,10 @@ article, p {
     background-color: #000;
     color:#fff
 }
+aside {
+    float: right;
+    clear: none;
+    display: block;
+    padding-top: 5px;
+}
+
