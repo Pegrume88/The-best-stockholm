@@ -1,68 +1,115 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
+
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #fff;
     background-color: #000;
     overflow-x: hidden;
-   
-   
+
+
 }
 
-html { font-size:100%; }
+html {
+    font-size: 100%;
+}
 
 
 @media (max-width: 480px) {
-    #hero-image {display: none;}
-    #cover-text  {
-       display: none;
+    p {
+        width: 100%;
     }
-    #meny li { display: block;}
+
+    #menu li {
+        float: left;
+    }
 }
-@media (min-width: 640px) { body {font-size:1rem;} 
-h4{display: none;}}
-@media (min-width:960px) { body {font-size:1.2rem;} 
-h4{display: none;}} 
-@media (min-width:1100px) { body {font-size:1.5rem;} 
-h4{display: none;}} 
+
+@media (min-width: 640px) {
+    body {
+        font-size: 1rem;
+    }
+
+    h4 {
+        display: none;
+    }
+}
+
+@media (min-width:960px) {
+    body {
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        display: none;
+    }
+}
+
+@media (min-width:1100px) {
+    body {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        display: none;
+    }
+}
 
 
 img {
     max-width: 100%;
     height: auto;
 }
-    
+
 
 #title-header {
+
     float: left;
+    font-family: Oswald, sans-serif;
+    text-transform: capitalize;
     font-size: 240%;
     margin-left: 30px;
     color: #fff;
     text-shadow: 3px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
+
 #menu {
     font-size: 180%;
+    font-family: Oswald, sans-serif;
+    text-transform: capitalize;
     letter-spacing: 4px;
-    color:#fff;
+    color: #fff;
     font-weight: 400;
-    display: inline-block;
+    display: inline-flexbox;
+    float: right;
+    position: relative;
+
 }
-#menu, #title-header {
+
+#menu,
+#title-header {
     line-height: 75px;
-  
+
+
+
 }
-#menu, li {
+
+#menu,
+li {
     list-style: none;
     float: right;
     margin-right: 30px;
-    color:#fff;
+    color: #fff;
+
 
 }
+
 h4 {
     font-family: Lato, sans-serif;
     float: left;
@@ -70,24 +117,30 @@ h4 {
     margin-left: 30px;
     color: #fff;
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
 #menu a {
     text-decoration: none;
     color: inherit;
-    
+
 }
+
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a ;
+    border-bottom: 1px solid #fff;
 }
+
 #article a:hover {
-    border-bottom: 1px solid #3a3a3a ;
+    border-bottom: 1px solid #fff;
 }
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -101,11 +154,13 @@ a {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../css/images/hero-image-2.jpeg);alt: stockholm at night;
+    background: url(../css/images/hero-image-2.jpeg);
+    alt: stockholm at night;
     animation-name: hero-zoom;
     animation-duration: 7s;
     animation-fill-mode: forwards;
 }
+
 @keyframes hero-zoom {
     from {
         transform: scale(1);
@@ -118,65 +173,56 @@ a {
 
 
 
-#cover-text h3 {
-    color: white;
 
-   
-}
 
-#cover-text h4 {
-    
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    font-size: 180%;
-    letter-spacing: 4px;
-    text-align: auto;
-    margin: 0 auto;
-    width: 500px;
-    height: 300px;
-position: relative;
-    padding: 20px;
-    
-    
 
-   
 
-    position: absolute;
-}
+
+
+
+
+
+
+
+
 
 #food-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    
+
     position: relative;
 }
 
 #food-image {
     height: 600px;
     width: 100%;
-    background: url(../css/images/a-bar-called-gemma-0.jpeg);alt: bartender shaking drinks;
-    
+    background: url(../css/images/a-bar-called-gemma-0.jpeg);
+
     animation-name: hero-zoom;
     animation-duration: 7s;
     animation-fill-mode: forwards;
 }
+
 #culture-image {
     height: 600px;
     width: 100%;
-    background: url(../css/images/nature.jpeg);alt: forent and lake at sunrise;
-    
+    background: url(../css/images/nature.jpeg);
+    alt: forent and lake at sunrise;
+
     animation-name: hero-zoom;
     animation-duration: 7s;
     animation-fill-mode: forwards;
 }
+
 #culture-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    
+
     position: relative;
 }
+
 @keyframes food-image {
     from {
         transform: scale(1.1);
@@ -186,6 +232,7 @@ position: relative;
         transform: scale(1);
     }
 }
+
 @keyframes culture-image {
     from {
         transform: scale(1.1);
@@ -201,15 +248,15 @@ position: relative;
     font-family: Lato, sans-serif;
     text-transform: uppercase;
     font-size: 180%;
-   text-align: center;
+    text-align: center;
     color: #fff;
 }
 
-    main{
-        display: block;
-    }
+main {
+    display: block;
+}
 
-    
+
 #article-left {
     font-family: Lato, sans-serif;
     padding: 20px;
@@ -220,7 +267,7 @@ position: relative;
     margin-bottom: 15px;
     border: 2px solid #3a3a3a;
     overflow-x: scroll;
-   
+
 
 }
 
@@ -229,71 +276,81 @@ h3 {
     font-size: 180%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    
-    
+
+
     letter-spacing: 2px;
-    color:#fff;
+    color: #fff;
 }
-article, p {
+
+article,
+p {
     text-transform: none;
     font-family: Lato, sans-serif;
     font-size: 20px;
-    
+
     width: 100%;
     height: auto;
-    
+
 }
 
-*{box-sizing: border-box}
+* {
+    box-sizing: border-box
+}
 
 
 .container {
-  padding: 16px;
+    padding: 16px;
 }
 
 
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
 }
 
 
 hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
 }
 
 
 .registerbtn {
-  background-color: #3a3a3a;
-  color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
+    background-color: #3a3a3a;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
 }
 
 .registerbtn:hover {
-  opacity:1;
+    opacity: 1;
 }
 
 footer {
     height: 150px;
-}    
+    background-color: #3a3a3a;
+    color: #fff;
+}
+
 .social-network {
     text-align: center;
 }
+
 .social-network li {
     display: inline;
 
@@ -308,7 +365,8 @@ footer {
 
 
 
-.footer, p {
+.footer,
+p {
     padding-left: 20px;
     font-family: Oswald, sans-serif;
     color: #fff;
@@ -324,8 +382,8 @@ footer {
 aside {
     float: right;
     clear: none;
+    width: 100%;
     display: block;
-    padding-top: 5px;
-    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px
 }
-
