@@ -259,14 +259,15 @@ main {
 
 #article-left {
     font-family: Lato, sans-serif;
-    padding: 20px;
-    width: 80%;
+    padding-left: 3%;
+    width: 60%;
     height: auto;
     display: block;
-    margin-left: 5%;
+   margin: auto;
     margin-bottom: 15px;
     border: 2px solid #fff;
     overflow-x: scroll;
+    align-content: center;
 
 
 }
@@ -385,10 +386,12 @@ footer {
 
 
 aside {
-    float: right;
+    
     clear: none;
     width: 100%;
     display: block;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 10px;
     padding-bottom: 20px
 }
