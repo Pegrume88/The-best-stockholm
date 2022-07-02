@@ -58,7 +58,14 @@ For the Nature and culture page I have followed the same disign as the previous 
 On this page we have focused and nature and culture. The nature aspects are hiking and kayking and for the cultural aspects we have chosen a few of the most interesting and eye catching museums to visit.
 each activity or venue name is a link that take you to the necceressary webpage in a new tab.
 
-![hero image](/assets/css/ReadMe-images/hero-image.png)
+![nature image](/assets/css/ReadMe-images/nature-image.png)
+
+## Footer
+
+The footer contains all the relevent social media links to The Best Of Stockholm, as well as a contact email for the user.
+
+![nature image](/assets/css/ReadMe-images/footer.png)
+
 
 
 
