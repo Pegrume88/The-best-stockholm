@@ -247,7 +247,7 @@ main {
 }
 
 
-#article-left {
+ #article-left, section {
     font-family: Lato, sans-serif;
     padding-left: 3%;
    
@@ -263,10 +263,11 @@ main {
 
 }
 
-#article-left h2 , h3{
+#article-left  , h3{
     text-align: center;
     text-transform: capitalize;
 }
+
 form h2 {
     font-size: 180%;
     font-family: Oswald, sans-serif;
