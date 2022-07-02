@@ -67,7 +67,7 @@ each activity or venue name is a link that take you to the necceressary webpage 
 
 The footer contains all the relevent social media links to The Best Of Stockholm, as well as a contact email for the user.
 
-![nature image](/assets/css/ReadMe-images/footer.png)
+![footer](/assets/css/ReadMe-images/footer.png)
 
 
 
@@ -86,17 +86,29 @@ The footer contains all the relevent social media links to The Best Of Stockholm
   # Technologies Used
 * [HTML5](https://html.spec.whatwg.org/) - provides the content and structure for the website.
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - provides the styling.
-* [Balsamiq](https://balsamiq.com/wireframes/) - used to create the wireframes.
 * [Gitpod](https://www.gitpod.io/#get-started) - used to deploy the website.
 * [Github](https://github.com/) - used to host and edit the website.
 
-# Testing
 
-Please refer to [**_here_**](TESTING.md) for more information on testing Wawas Woods.
+## Testing
 
-[Back to top](<#contents>)
+### Browser Test
+I have tested the site on Google Chrome, Firefox and Safari using [lambdatest](https://app.lambdatest.com/). Using lambdatest i can confirm my site works and function on all three browsers.
 
-# Deployment
+### lighthouse test
+I have run my website through lighthouse scoring high in every area apart from performance. I attempted to fix this, by going through my css and double checking for any unnecessary css that could be affecting the performance score. I managed to increase from 72 to 79, i was unable to increase it it further. The website does not show any signs of lagging and loads pages promtly with no issue.
+
+![lighthouse scores](/assets/css/ReadMe-images/lighthouse.png)
+
+### Site Validator
+
+**HTML** 
+* No errors returned when passing through the html [validator](https://validator.w3.org/)
+
+**CSS**
+* No errors returned when passing through [jigsaw](https://jigsaw.w3.org/css-validator/)
+
+## Deployment
 
 ### **To deploy the project**
 The site was deployed to GitHub pages. The steps to deploy a site are as follows:
@@ -104,3 +116,19 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
   2. Once in Settings, navigate to the **Pages** tab on the left hand side.
   3. Under **Source**, select the branch to **master**, then click **save**.
   4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+![deploy image](/assets/css/ReadMe-images/deploy.png)
+
+## Content
+
+### Credits/Media
+  * Content of text was taken from the home pages of the bars,resaurants,locations and musuems mentioned in my site.
+  * The styling of the hero images was inspired by the [love-running](https://code-institute-org.github.io/love-running-2.0/index.html)
+  * I used the styling influences for my sign up form from [w3schools](https://www.w3schools.com/)
+  * I refered to web coding & develepment for dummies.
+  * All Icons used were obtained from [font-awesome](https://fontawesome.com/)
+  * All pictures were obtained through google images due to being location sepcific.
+
+
+
+
