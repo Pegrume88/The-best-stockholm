@@ -255,6 +255,7 @@ main {
 #article-left {
     font-family: Lato, sans-serif;
     padding-left: 3%;
+   
     width: 60%;
     height: auto;
     display: block;
@@ -288,7 +289,7 @@ p {
     text-transform: none;
     font-family: Lato, sans-serif;
     font-size: 20px;
-
+padding-right: 3%;
     width: 100%;
     height: auto;
 
