@@ -2,6 +2,9 @@
 
 The Best Of Stockholm is a travel website focused on helping the user sift through the hundreds of bars, restaraunts as well as the best Nature and cultural activities this beautful city has to offer. The Best of Stockholm offers five of the best places to drink and eat as well as well as the best activities too do while visiting Stockholm. 
 
+![hero image](/assets/css/ReadMe-images/responsive.png)
+
+
 ## User experience (UX)
 
 * As a user i want this website to run smoothly on both laptops and mobile phones.

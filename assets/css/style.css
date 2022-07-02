@@ -335,7 +335,8 @@ hr {
 }
 
 .registerbtn:hover {
-    opacity: 1;
+    background-color: #fff;
+    color: #000;
 }
 
 footer {
