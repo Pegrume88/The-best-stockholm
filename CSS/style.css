@@ -137,7 +137,7 @@ article a:hover {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../css/images/hero-image-2.jpeg);
+    background: url(/assets/images/hero-image-2.jpeg);
     background-repeat: no-repeat;
     animation-name: hero-zoom;
     animation-duration: 7s;
@@ -157,12 +157,6 @@ article a:hover {
 
 
 
-
-
-
-
-
-
 #food-outer {
     height: 600px;
     width: 100%;
@@ -174,7 +168,7 @@ article a:hover {
 #food-image {
     height: 600px;
     width: 100%;
-    background: url(../css/images/a-bar-called-gemma-0.jpeg);
+    background: url(/assets/images/a-bar-called-gemma-0.jpeg);
 
     animation-name: hero-zoom;
     animation-duration: 7s;
@@ -185,7 +179,7 @@ article a:hover {
 #culture-image {
     height: 600px;
     width: 100%;
-    background: url(../css/images/nature.jpeg);
+    background: url(/assets/images/nature.jpeg);
     animation-name: hero-zoom;
     animation-duration: 7s;
     animation-fill-mode: forwards;
@@ -232,7 +226,7 @@ main {
     display: block;
 }
 
-/*Style rlus for all sections*/
+/*Style rules for all sections*/
  section {
     font-family: Lato, sans-serif;
     padding-left: 3%;
