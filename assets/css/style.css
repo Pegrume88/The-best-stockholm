@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
-
+/*CSS selector for all elements*/
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
-
+/* styling for body og website*/
 body {
     font-family: lato, sans-serif;
     font-weight: 300;
@@ -15,12 +15,12 @@ body {
 
 
 }
-
+/*Font size for all pages*/
 html {
     font-size: 100%;
 }
 
-
+/*Instructions for resposiveness*/
 @media (max-width: 480px) {
     p {
         width: 100%;
@@ -38,7 +38,6 @@ html {
         font-size: 1rem;
     }
 
-    
 }
 
 @media (min-width:960px) {
@@ -46,7 +45,6 @@ html {
         font-size: 1.2rem;
     }
 
-    
 }
 
 @media (min-width:1100px) {
@@ -54,16 +52,15 @@ html {
         font-size: 1.5rem;
     }
 
-    
 }
 
-
+/*Location images*/
 img {
     max-width: 100%;
     height: auto;
 }
 
-
+/*Name of website*/
 #title-header {
 
     float: left;
@@ -74,7 +71,7 @@ img {
     color: #fff;
     text-shadow: 3px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
-
+/*Navigation menu*/
 #menu {
     font-size: 180%;
     font-family: Oswald, sans-serif;
@@ -82,18 +79,13 @@ img {
     letter-spacing: 4px;
     color: #fff;
     font-weight: 400;
-    
     float: right;
     position: relative;
 
 }
 
 
-
-
-
-
-
+/*Navigation links*/
 #menu,
 li {
     list-style: none;
@@ -125,10 +117,13 @@ article a:hover {
     border-bottom: 1px solid #fff;
 }
 
+/*Show active link*/
 .active {
     border-bottom: 1px solid #fff;
 }
 
+
+/*Styling for home page image*/
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -138,7 +133,7 @@ article a:hover {
 }
 
 
-
+/*zoom in affects on main images*/
 #hero-image {
     height: 600px;
     width: 100%;
@@ -168,12 +163,6 @@ article a:hover {
 
 
 
-
-
-
-
-
-
 #food-outer {
     height: 600px;
     width: 100%;
@@ -181,7 +170,7 @@ article a:hover {
 
     position: relative;
 }
-
+/*zoom in affects on food page images*/
 #food-image {
     height: 600px;
     width: 100%;
@@ -192,12 +181,11 @@ article a:hover {
     animation-fill-mode: forwards;
 }
 
+/*zoom in affects on main images*/
 #culture-image {
     height: 600px;
     width: 100%;
     background: url(../css/images/nature.jpeg);
-    
-
     animation-name: hero-zoom;
     animation-duration: 7s;
     animation-fill-mode: forwards;
@@ -231,8 +219,8 @@ article a:hover {
     }
 }
 
-
-#food-drink-text h2 {
+/*Style for food and drink text*/
+#food-drink-text, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     font-size: 180%;
@@ -244,15 +232,14 @@ main {
     display: block;
 }
 
-
- #article-left, section {
+/*Style rlus for all sections*/
+ section {
     font-family: Lato, sans-serif;
     padding-left: 3%;
-   
     width: 60%;
     height: auto;
     display: block;
-   margin: auto;
+    margin: auto;
     margin-bottom: 15px;
     border: 2px solid #fff;
     overflow-x: scroll;
@@ -260,30 +247,28 @@ main {
 
 
 }
-
-#article-left  , h3{
+/*Article headings*/
+article, h3{
     text-align: center;
     text-transform: capitalize;
 }
-
-form h2 {
+/*Form heading*/
+form, h2 {
     font-size: 180%;
     font-family: Oswald, sans-serif;
     text-transform: capitalize;
     text-align: center;
-
-
-
     letter-spacing: 2px;
     color: #fff;
 }
 
+/*Paragraphs in article*/
 article,
 p {
     text-transform: none;
     font-family: Lato, sans-serif;
     font-size: 20px;
-padding-right: 3%;
+    padding-right: 3%;
     width: 100%;
     height: auto;
 
@@ -292,13 +277,13 @@ padding-right: 3%;
 * {
     box-sizing: border-box
 }
-
+/*Form container*/
 
 .container {
     padding: 16px;
 }
 
-
+/*form input*/
 input[type=email]
  {
     width: 100%;
@@ -315,13 +300,13 @@ input[type= email]:focus
     outline: none;
 }
 
-
+/*Horizontal line*/
 hr {
     border: 1px solid #f1f1f1;
     margin-bottom: 25px;
 }
 
-
+/*Submit button*/
 .registerbtn {
     background-color: #3a3a3a;
     color: white;
@@ -338,6 +323,7 @@ hr {
     color: #000;
 }
 
+/*Footer stylings*/
 footer {
     height: fit-content;
     background-color: #3a3a3a;
@@ -355,7 +341,6 @@ footer {
 
 
 .social-network{
-
 
 letter-spacing: 3px;
     font-size: 100%;
