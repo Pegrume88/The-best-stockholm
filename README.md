@@ -1,4 +1,4 @@
-# [The Best Of Stockholm](https://8000-pegrume88-fiveofthebest-g3vrorisg66.ws-eu47.gitpod.io/index.html)
+# [The Best Of Stockholm](https://pegrume88.github.io/The-best-stockholm/)
 
 The Best Of Stockholm is a travel website focused on helping the user sift through the hundreds of bars, restaraunts as well as the best Nature and cultural activities this beautful city has to offer. The Best of Stockholm offers five of the best places to drink and eat as well as well as the best activities too do while visiting Stockholm. 
 
